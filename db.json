@@ -1,9 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "transactions": [
+    {
+      "id": "1",
+      "date": "2019-12-01",
+      "description": "Paycheck from Bob's Burgers",
+      "category": "Income",
+      "amount": 1000
+    },
+    {
+      "id": "2",
+      "date": "2019-12-01",
+      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
+      "category": "Food",
+      "amount": -10.55
+    },
+    {
+      "id": "99f6",
+      "date": "2024-08-03",
+      "description": "Avocado",
+      "category": "Fruit",
+      "amount": 30
+    },
+    {
+      "id": "84ce",
+      "date": "2024-08-02",
+      "description": "Brabus",
+      "category": "Transport",
+      "amount": 5000
+    },
+    {
+      "id": "2558",
+      "date": "2024-08-02",
+      "description": "Bently",
+      "category": "Vehicle",
+      "amount": 2000
+    },
+    {
+      "id": "b21c",
+      "date": "2024-08-12",
+      "description": "Mango",
+      "category": "Fruit",
+      "amount": 30
+    }
+  ]
 }
